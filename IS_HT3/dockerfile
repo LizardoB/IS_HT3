@@ -1,0 +1,4 @@
+FROM openjdk:8-jre-alpine
+ADD "target/IS_HT3-1.0-HojaDeTrabajo3Parte1-jar-with-dependencies.jar" "isht3.jar"
+ENTRYPOINT ["java", "-jar", "isht3.jar"]
+
